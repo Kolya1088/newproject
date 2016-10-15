@@ -16,6 +16,7 @@ h1 {
     padding-top: 20px;
     text-transform: uppercase;
     color: #ffd88e;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 h2 {
@@ -32,6 +33,10 @@ h3 {
     background-color: white;
     padding: 0em 1em 1em;
     padding-top: 10px;
+    text-indent: 30px;
+}
+#main h2 {
+    text-align: center;
 }
 #footer {
     text-align: center;
@@ -67,7 +72,7 @@ a:hover, a:active {
 }
 
 #hyperlink {
-    display: inline:
+    display: inline;
     font-weight:100;
     color:blue;
     background-color: white;
@@ -93,7 +98,11 @@ td {
 
 iframe {
     border: 0;
-    width: 100%;
+    width: 50%;
     height: 350px;
 }
-
+#text_slide1 {
+    position: absolute;
+    left: 0px;
+    opacity:0;
+}
